@@ -1,0 +1,194 @@
+table, th, td {
+    border: 1px solid black;
+    border-color: #e50e0e;
+    border-radius: 10px;
+  }
+  th, td{
+    background-color: #96D4D4;
+  }
+  h1{
+    text-align: center;
+    color: green;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ button{
+    color: black;
+    background-color: grey;
+ }
+ span{
+    font-style: italic;
+    text-align: center;
+ }
+ .navbar.sticky {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+    
+}
+video{
+    width: 922px;
+    height: 700px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: larger;
+    text-align:justify;
+    background-color: rgb(183, 243, 243);
+    color: #333;
+}
+img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#question-container {
+    margin-bottom: 10px;
+}
+
+#options-container {
+    margin-bottom: 20px;
+}
+
+#next-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.knowledge-meter {
+    width: 100%;
+    background-color: #ccc;
+    height: 20px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #3498db;
+}
+
+p {
+    margin-top: 20px;
+}
+/* CSS to remove space between video and text */
+.container {
+    margin-bottom: 0; /* Adjust this value as needed */
+}
+html{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#game-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#bin {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50; /* Green bin color */
+}
+
+.trash {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #FF5733; /* Red trash color */
+    border-radius: 50%;
+}
+
+#score {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#score-value {
+    font-weight: bold;
+}
